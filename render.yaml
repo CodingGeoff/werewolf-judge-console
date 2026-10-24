@@ -1,0 +1,11 @@
+services:
+  # 推荐：Render Static Site（完全免费、全球 CDN、永不休眠秒开）
+  - type: web
+    name: werewolf-judge-console
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
