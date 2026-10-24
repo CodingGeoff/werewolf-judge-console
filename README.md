@@ -1,5 +1,9 @@
 # 🐺 狼人杀 · 法官控制台（Werewolf Judge Console）
 
+🌐 **在线直接用（GitHub Pages 已自动部署）**：[https://codinggeoff.github.io/werewolf-judge-console/](https://codinggeoff.github.io/werewolf-judge-console/)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CodingGeoff/werewolf-judge-console)
+
 专为狼人杀面杀 / 网杀法官打造的全流程防忘事工作台：**发牌 → 夜晚引导与自动算死讯 → 记录各种乱七八糟突发情况 → 事后随时复盘标注 → 一键导出文字战报**。
 
 纯前端单页应用（React 19 + Vite 6），所有多局历史数据实时自动保存在浏览器本地存储（`localStorage`），并支持 JSON 导出与导入备份，**无需后端与数据库，部署到 Render 静态站点永久免费且绝不休眠秒开**。
